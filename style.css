@@ -1,0 +1,44 @@
+body {
+  font-size: 16px;
+  font-family: Arial;
+}
+.main-container {
+  border-top: 5px solid black;
+  padding: 40px;
+  margin: 0 auto;
+}
+#header {
+  width: 100%;
+  /* border:1px solid black;*/
+  display: flex;
+}
+.image {
+  width: 30%;
+}
+.name {
+  width: 70%;
+}
+.container {
+  display: flex;
+}
+#experience {
+  width: 70%;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+#contact {
+  width: 30%;
+  color: #73808d;
+  padding: 0px 30px 0px 30px;
+}
+img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+h3,
+h6 {
+  color: #73808d;
+  margin: 0;
+}
